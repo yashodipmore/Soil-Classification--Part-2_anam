@@ -57,9 +57,9 @@ soil-image-classification/
 └── README.md               # This file
 ```
 
-## 📝 Note for Annam.ai Evaluators
+##  Note for Annam.ai Evaluators
 
-> 🔔 **Important Clarification Regarding Training Data Composition**
+>  **Important Clarification Regarding Training Data Composition**
 
 During the challenge, we observed that **all images in the `train/` folder provided in the official dataset were soil images only**, and there were **no non-soil images** included in the training data. However, in the `test/` set, the images include **various non-soil categories** such as **animals, cats, dogs, plants, etc.**
 
@@ -68,13 +68,13 @@ If the model is trained solely on positive (soil) examples, it **fails to genera
 
 To address this and improve the model's ability to **discriminate between soil and non-soil images**, we made a **minor yet crucial adjustment**:
 
-- 🔁 **We manually added a small subset of clearly non-soil images from the test set into the `train/` directory** and labeled them with `0` to represent negative examples.
+-  **We manually added a small subset of clearly non-soil images from the test set into the `train/` directory** and labeled them with `0` to represent negative examples.
 
 This helped the model learn meaningful distinctions between soil and non-soil classes, significantly improving F1-score and reducing false positives.
 
 ---
 
-⚠️ **When running or evaluating this repository:**
+ **When running or evaluating this repository:**
 
 - Ensure that you **use the modified `train/` directory**, which includes a balanced mix of soil (`label 1`) and manually added non-soil (`label 0`) images.
 - If you're running on **Kaggle**, upload the full modified dataset (including `train/`, `test/`, and CSV files) before execution.
@@ -202,10 +202,6 @@ This repository is made available for academic and non-commercial use only.
 
 ---
 
-## Acknowledgements
-
-- Dataset and challenge organized by **Annam.ai & IIT Ropar**.
-- Pretrained model credits: **PyTorch & torchvision**.
 
 ---
 
