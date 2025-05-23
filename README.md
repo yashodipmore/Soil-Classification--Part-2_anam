@@ -204,7 +204,12 @@ This repository is made available for academic and non-commercial use only.
 
 
 ---
+##  Acknowledgements
+
+Thanks to [Annam.ai](https://annam.ai/) and [IIT Ropar](https://www.iitrpr.ac.in/) for organizing this valuable challenge and providing the dataset.
 
 ```bash
+
+
 
 ```
