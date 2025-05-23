@@ -52,7 +52,7 @@ soil-image-classification/
 ├── train_labels.csv        # Training labels CSV
 ├── test_ids.csv            # Test file image IDs
 ├── submission.csv          # Final submission file
-├── soil-classification-2.ipynb  # Jupyter Notebook with full training and inference
+├── notebooks/soil-classification-2.ipynb  # Jupyter Notebook with full training and inference
 ├── requirements.txt
 └── README.md               # This file
 ```
